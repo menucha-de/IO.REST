@@ -1,0 +1,21 @@
+Bundle-Name: Ha-VIS Net REST IO
+Bundle-SymbolicName: havis.net.rest.io
+Bundle-Version: 2.6.0
+Implementation-Version: 2.6
+Bundle-ManifestVersion: 2
+Bundle-Vendor: HARTING IT_SD
+Bundle-Activator: havis.net.rest.io.osgi.Activator
+Import-Package: 
+ havis.device.io,
+ havis.device.io.exception,
+ havis.net.rest.shared,
+ havis.net.rest.shared.data,
+ javax.annotation.security,
+ javax.naming,
+ javax.ws.rs,
+ javax.ws.rs.core,
+ javax.ws.rs.ext,
+ org.osgi.framework;resolution:=optional,
+ org.osgi.util.tracker;resolution:=optional
+Export-Package: 
+ havis.net.rest.io
