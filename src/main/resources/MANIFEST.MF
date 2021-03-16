@@ -3,7 +3,7 @@ Bundle-SymbolicName: havis.net.rest.io
 Bundle-Version: 2.7.0
 Implementation-Version: 2.7
 Bundle-ManifestVersion: 2
-Bundle-Vendor: HARTING IT_SD
+Bundle-Vendor: Menucha Team <info@menucha.de>
 Bundle-Activator: havis.net.rest.io.osgi.Activator
 Import-Package: 
  havis.device.io,
